@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Majestade doces — Doceria em Juiz de Fora</title>
+  <meta name="description" content="Para o dia a dia. Para celebrar. Bolos, docinhos e sobremesas da Majestade doces.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Playfair+Display:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navegação -->
+  <header class="topo">
+    <div class="container topo__barra">
+      <a class="marca" href="#inicio">Majestade doces</a>
+      <nav class="menu" aria-label="Principal">
+        <a href="#doces">Nossos doces</a>
+        <div class="local">
+          <button class="local__botao" type="button" aria-expanded="false" aria-controls="local-card">Como nós encontrar</button>
+          <div class="local__card" id="local-card" hidden>
+            <p class="local__titulo">NOSSAS LOJAS</p>
+            <ul class="local__lista">
+              <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Av.+Rio+Branco,+2135,+Juiz+de+Fora,+MG" target="_blank" rel="noopener">Avenida Rio Branco 2135</a></li>
+              <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Halfeld,+744,+Juiz+de+Fora,+MG" target="_blank" rel="noopener">Rua Halfeld 744 - Loja 2</a></li>
+              <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Galeria+Bruno+Barbosa,+Juiz+de+Fora,+MG" target="_blank" rel="noopener">Galeria Bruno Barbosa - Loja 59</a></li>
+              <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Halfeld,+513,+Juiz+de+Fora,+MG" target="_blank" rel="noopener">Rua Halfeld 513 - Loja 13</a></li>
+              <li><a href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Santa+Rita,+416,+Juiz+de+Fora,+MG" target="_blank" rel="noopener">Rua Sta Rita 416</a></li>
+            </ul>
+          </div>
+        </div>
+        <a href="#como-encomendar">Como encomendar</a>
+      </nav>
+      <a class="botao botao--cheio" href="https://wa.me/5532988772502" target="_blank" rel="noopener">Fazer encomenda ↗</a>
+    </div>
+    <div class="container"><hr class="divisoria"></div>
+  </header>
+
+  <main id="inicio">
+
+    <!-- Boas-vindas -->
+    <section class="hero">
+      <div class="container hero__grade">
+        <div class="hero__texto">
+          <p class="eyebrow">PARA O DIA A DIA. PARA CELEBRAR.</p>
+          <h1 class="hero__titulo">Um doce para<br>cada momento.</h1>
+          <p class="hero__apresentacao">Da pausa no meio da tarde à mesa da sua festa. Encontre seu doce ou planeje uma encomenda para uma ocasião especial.</p>
+          <div class="hero__acoes">
+            <a class="botao botao--cheio" href="#doces">Explorar doces ↓</a>
+            <a class="botao botao--contorno" href="https://wa.me/5532988772502" target="_blank" rel="noopener">Encomendar para festa ↗</a>
+          </div>
+          <p class="nota">Uma seleção para pequenos e grandes momentos.</p>
+        </div>
+        <figure class="hero__imagem">
+          <img src="https://www.figma.com/api/mcp/asset/dc7e986b-4bcf-4467-9565-0f88a3046556/b8117.png" alt="Bolo e doces">
+          <figcaption>Um motivo a mais para celebrar</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Dois jeitos de adoçar -->
+    <section class="dois-jeitos">
+      <div class="container dois-jeitos__grade">
+        <a class="dois-jeitos__item" href="#doces">
+          <p class="eyebrow eyebrow--p">01 / SEU MOMENTO</p>
+          <h2>Hoje merece um doce.</h2>
+          <p>Explore a vitrine e escolha o que combina com sua pausa. &nbsp;↗</p>
+        </a>
+        <a class="dois-jeitos__item" href="https://wa.me/5532988772502" target="_blank" rel="noopener">
+          <p class="eyebrow eyebrow--p">02 / SUA CELEBRAÇÃO</p>
+          <h2>A festa começa nos detalhes.</h2>
+          <p>Converse sobre bolos e doces para a sua ocasião. &nbsp;↗</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Vitrine de doces -->
+    <section class="vitrine" id="doces">
+      <div class="container">
+        <div class="vitrine__cabecalho">
+          <div>
+            <p class="eyebrow eyebrow--p">DOCES PARA O DIA A DIA</p>
+            <h2 class="titulo-secao">Qual vai ser o seu momento de hoje?</h2>
+            <p class="vitrine__intro">Um convite para escolher com os olhos e saborear sem pressa.</p>
+          </div>
+          <a class="link-destaque" href="#doces">Explorar o cardápio ↗</a>
+        </div>
+
+        <ul class="cards">
+          <li class="card">
+            <a href="#doces">
+              <img class="card__img card__img--bolos" src="https://www.figma.com/api/mcp/asset/dc7e986b-4bcf-4467-9565-0f88a3046556/d3951.png" alt="Bolos e fatias">
+              <div class="card__linha"><h3>Bolos e fatias</h3><span aria-hidden="true">↗</span></div>
+              <p>Uma pausa com sabor de carinho.</p>
+            </a>
+          </li>
+          <li class="card">
+            <a href="#doces">
+              <img class="card__img card__img--docinhos" src="https://www.figma.com/api/mcp/asset/dc7e986b-4bcf-4467-9565-0f88a3046556/8cfe2.png" alt="Docinhos">
+              <div class="card__linha"><h3>Docinhos</h3><span aria-hidden="true">↗</span></div>
+              <p>Pequenos no tamanho. Grandes no afeto.</p>
+            </a>
+          </li>
+          <li class="card">
+            <a href="#doces">
+              <img class="card__img card__img--sobremesas" src="https://www.figma.com/api/mcp/asset/dc7e986b-4bcf-4467-9565-0f88a3046556/f482b.png" alt="Sobremesas">
+              <div class="card__linha"><h3>Sobremesas</h3><span aria-hidden="true">↗</span></div>
+              <p>Para deixar o seu dia mais gostoso.</p>
+            </a>
+          </li>
+        </ul>
+
+        <p class="nota nota--pequena">Seleção e imagens ilustrativas • Produtos sujeitos à definição do cardápio.</p>
+      </div>
+    </section>
+
+    <!-- Encomendas para celebrar -->
+    <section class="celebrar">
+      <div class="container celebrar__grade">
+        <img class="celebrar__img" src="https://www.figma.com/api/mcp/asset/dc7e986b-4bcf-4467-9565-0f88a3046556/803ba.png" alt="Mesa de festa">
+        <div class="celebrar__texto">
+          <p class="eyebrow eyebrow--claro">PARA OS DIAS QUE VIRAM MEMÓRIA</p>
+          <h2 class="celebrar__titulo">Sua celebração,<br>ainda mais doce.</h2>
+          <p class="celebrar__apresentacao">Aniversário, encontro em família ou uma ocasião especial. Vamos conversar sobre os doces para a sua mesa?</p>
+          <p class="celebrar__categorias">BOLOS &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp; DOCINHOS &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp; MESAS DE FESTA</p>
+          <a class="botao botao--claro" href="https://wa.me/5532988772502" target="_blank" rel="noopener">Planejar minha encomenda ↗</a>
+          <p class="celebrar__obs">Consulte opções, quantidades e disponibilidade de datas.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Como encomendar -->
+    <section class="etapas" id="como-encomendar">
+      <div class="container">
+        <h2 class="titulo-etapas">Do primeiro desejo à sua comemoração.</h2>
+        <ol class="etapas__lista">
+          <li class="etapa">
+            <span class="etapa__num">01</span>
+            <div><h3>Conte sua ideia</h3><p>Diga a ocasião, a data e o número de pessoas para começar a conversa.</p></div>
+          </li>
+          <li class="etapa">
+            <span class="etapa__num">02</span>
+            <div><h3>Escolha os detalhes</h3><p>Converse sobre sabores, quantidades e apresentação dos doces.</p></div>
+          </li>
+          <li class="etapa">
+            <span class="etapa__num">03</span>
+            <div><h3>Combine seu pedido</h3><p>Confirme disponibilidade, valores e a forma de receber sua encomenda.</p></div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Dúvidas frequentes -->
+    <section class="duvidas">
+      <div class="container duvidas__grade">
+        <div class="duvidas__intro">
+          <p class="eyebrow eyebrow--p">ANTES DE ESCOLHER</p>
+          <h2>Um pouco mais<br>sobre seu pedido.</h2>
+          <a class="link-destaque" href="https://wa.me/5532988772502" target="_blank" rel="noopener">Tem outra dúvida? Vamos conversar. ↗</a>
+        </div>
+        <div class="duvidas__lista">
+          <div class="duvida">
+            <h3>Como consultar os doces disponíveis?</h3>
+            <p>Explore as categorias e consulte o cardápio e a disponibilidade antes de confirmar seu pedido.</p>
+          </div>
+          <div class="duvida">
+            <h3>Com quanto tempo devo encomendar?</h3>
+            <p>Informe a data da sua festa para consultar a agenda e o prazo necessário para o seu pedido.</p>
+          </div>
+          <div class="duvida">
+            <h3>Posso consultar ingredientes e alergênicos?</h3>
+            <p>Sim. Pergunte sobre a composição e eventuais restrições alimentares antes de escolher seus doces.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="rodape" id="rodape">
+    <div class="container">
+      <div class="rodape__grade">
+        <div>
+          <p class="rodape__marca">Majestade doces</p>
+          <p class="rodape__msg">Para adoçar o cotidiano e celebrar o que importa.</p>
+        </div>
+        <div>
+          <p class="eyebrow eyebrow--p">EXPLORE</p>
+          <ul class="rodape__links">
+            <li><a href="#doces">Nossos doces</a></li>
+            <li><a href="#como-encomendar">Encomendas para festas</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="eyebrow eyebrow--p">VAMOS CONVERSAR</p>
+          <ul class="rodape__links">
+            <li><a href="tel:+5532988772502">(32) 98877-2502</a></li>
+            <li><a href="https://www.instagram.com/majestade_doces/" target="_blank" rel="noopener">majestade_doces</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="divisoria">
+      <div class="rodape__base">
+        <p>Desenvolvido por JSilvaDEVJF</p>
+        <p>Juiz de Fora - Minas Gerais</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
